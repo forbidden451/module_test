@@ -1,0 +1,135 @@
+@import url(./variable.css);
+
+html {
+    scroll-behavior: smooth;
+  }
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    color: white;
+    font-family: var(--font-family-2);
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+nav
+{
+    background-color: rgb(43, 59, 46);
+    padding-bottom: 25px;
+    box-shadow: 2px 2px 3px rgb(78, 70, 70);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+nav ul
+{
+    display: inline;
+    margin-left: 500px;
+}
+nav ul li 
+{
+    display: inline;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.logo
+{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    transform:translateY(21px) ;
+}
+.logo img
+{
+    height: 50px;
+    width: 59px;
+    position: relative;
+    top: 20px;
+}
+
+.first svg{
+    margin-left: -10px;
+    position: relative;
+    width:52.3%;
+}
+
+/* for text on image on center */
+.centered .title{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 60px;
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+
+.centered .desc{
+    position: absolute;
+    top: 65%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 25px;
+    font-family: var(--font-family-2);
+}
+
+.about-us h1{
+    margin-top:150px;
+    text-align:center;
+    text-decoration: underline;
+    font-size:40px;
+}
+
+.about-us p{
+    margin-top:30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    font-size:20px;
+    font-weight: 300;
+    letter-spacing:0.07cm;
+}
+/* menu starts */
+.menu h1{
+    margin-top:100px;
+    text-align:center;
+    text-decoration: underline;
+    font-size:40px;
+    margin-bottom: 100px;
+}
+
+.menu img{
+    height:450px;
+    border-radius: 30px;
+}
+
+.center{
+    margin-left:auto;
+    margin-right: auto;
+}
+
+td{
+    border:30px black solid ;
+}
+
+.menu p{
+    text-align:center;
+    font-size:20px;
+    font-weight: 300;
+    letter-spacing:0.07cm;
+}
