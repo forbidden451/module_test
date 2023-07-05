@@ -59,18 +59,16 @@ nav ul li a
     position: relative;
     top: 20px;
 }
-
-.first svg{
-    margin-left: -10px;
-    position: relative;
-    width:52.3%;
+.first img {
+    width:100%;
 }
+
 
 /* for text on image on center */
 .centered .title{
     position: absolute;
     top: 40%;
-    left: 70%;
+    left: 75%;
     transform: translate(-50%, -50%);
     color:white;
     font-size: 60px;
@@ -80,8 +78,8 @@ nav ul li a
 
 .centered .desc{
     position: absolute;
-    top: 65%;
-    left: 70%;
+    top: 70%;
+    left: 75%;
     transform: translate(-50%, -50%);
     color:white;
     font-size: 25px;
